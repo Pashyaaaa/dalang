@@ -1,0 +1,23 @@
+PJ Konsumsi: Ilyas
+Konsumsi 1: Akbar
+Konsumsi 2: Rehan
+
+PJ Hacker : Vian
+Hacker 1: Fatih
+Hacker 2 : Zam
+
+PJ Logistik Perasaan : Fathir
+Logistik Perasaan 1 : Vito
+Logistik Perasaan 2 : Levi
+
+Pj Tukang Pukul: Azzam
+Tukang Pukul 1: Arjuna
+Tukang Pukul 2: Aldi
+
+PJ Mekanik: Nabil
+Mekanik 1: Zaki
+
+PJ Intel: Vigil
+
+PJ Defender: Atma
+Defender 1: Radit

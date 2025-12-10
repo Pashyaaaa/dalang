@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Damkar Telang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#3b82f6",
+              secondary: "#1f2937",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300"
+  >
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="bg-transparent dark:bg-transparent shadow-none transition-all duration-300"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex sm:justify-center justify-between items-center space-x-4 py-4 px-2"
+        >
+          <!-- Tempat Logo -->
+          <div class="flex justify-center items-center space-x-2">
+            <img
+              src="logo_dalang.jpeg"
+              alt="Logo Damkar Telang"
+              class="w-16 h-16 rounded-full"
+            />
+            <h1
+              class="text-sm sm:text-xl font-bold text-red-800 dark:text-red-700"
+            >
+              <span class="text-4xl">D</span>amkar
+              <span class="text-2xl">T</span>elang
+            </h1>
+          </div>
+          <button
+            id="theme-toggle"
+            class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-gray-200"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-gradient-to-r from-red-500 to-pink-600 dark:from-pink-900 dark:to-red-500 text-white py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-4">Selamat Datang di Damkar Telang</h2>
+        <p class="text-xl mb-8">
+          Komunitas teknologi terdepan untuk belajar, berbagi, dan
+          berkolaborasi. Bergabunglah dengan puluhan anggota aktif!
+        </p>
+        <a
+          href="https://chat.whatsapp.com/JJMUOYEI9oZ1A1z86frXSx"
+          target="_blank"
+          class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+        >
+          Bergabung Sekarang
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-gray-200 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+            Tentang Kami
+          </h3>
+          <p class="text-lg text-gray-600 dark:text-gray-300">
+            Komunitas Damkar didirikan untuk memfasilitasi pertukaran
+            pengetahuan di bidang teknologi. Kami menyelenggarakan ngobar(ngopi
+            bareng), meetup, dan proyek kolaboratif.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+            <h4
+              class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
+            >
+              Belajar Bersama
+            </h4>
+            <p class="text-gray-600 dark:text-gray-300">
+              Akses materi pembelajaran gratis dan sesi mentoring dari ahli.
+            </p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+            <h4
+              class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
+            >
+              Kolaborasi Proyek
+            </h4>
+            <p class="text-gray-600 dark:text-gray-300">
+              Bekerja sama dalam proyek open-source dan inovasi teknologi.
+            </p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+            <h4
+              class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
+            >
+              Networking
+            </h4>
+            <p class="text-gray-600 dark:text-gray-300">
+              Bangun jaringan dengan profesional dan penggemar teknologi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-16 bg-white dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+            Galeri Kegiatan
+          </h3>
+          <p class="text-lg text-gray-600 dark:text-gray-300">
+            Lihat momen-momen seru dari kegiatan komunitas kami.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-6 justify-center">
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
+            <img
+              src="damkar_telang.jpeg"
+              alt="Kegiatan 1"
+              class="w-full h-48 object-cover rounded-lg"
+            />
+            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
+              Foto Bareng
+            </p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
+            <img
+              src="damkar_meetup.jpeg"
+              alt="Kegiatan 2"
+              class="w-full h-48 object-cover rounded-lg"
+            />
+            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
+              Rapat Akbar
+            </p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
+            <img
+              src="makan_bar.jpeg"
+              alt="Kegiatan 3"
+              class="w-full h-48 object-cover rounded-lg"
+            />
+            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
+              Makan Bareng
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members Section -->
+    <section class="py-16 bg-gray-400 dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-4">
+            Anggota
+          </h3>
+          <p class="text-lg text-black dark:text-gray-300">
+            Kenali beberapa anggota aktif kami yang menghidupkan komunitas.<br />
+            Yang di lingkari merah adalah <b>Penanggung Jawab (PJ)</b> tiap
+            Departemen.
+          </p>
+        </div>
+        <div
+          id="members-container"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Cards akan di-generate di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-600 text-white py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p>
+          &copy; 2025 Komunitas Dalang (Damkar Telang). Semua hak dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Theme Toggle, Sticky Navbar, and Members Data -->
+    <script>
+      const themeToggle = document.getElementById("theme-toggle");
+      const html = document.documentElement;
+      const navbar = document.getElementById("navbar");
+      const membersContainer = document.getElementById("members-container");
+
+      // Default dark mode, icon set to moon
+      let isDark = true;
+
+      themeToggle.addEventListener("click", () => {
+        html.classList.toggle("dark");
+        isDark = !isDark;
+        const icon = themeToggle.querySelector("svg");
+        if (isDark) {
+          icon.innerHTML =
+            '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>';
+        } else {
+          icon.innerHTML =
+            '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
+        }
+      });
+
+      // Sticky navbar on scroll
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          navbar.classList.add(
+            "fixed",
+            "top-0",
+            "left-0",
+            "right-0",
+            "z-50",
+            "bg-white",
+            "dark:bg-gray-800",
+            "shadow-md"
+          );
+          navbar.classList.remove(
+            "bg-transparent",
+            "dark:bg-transparent",
+            "shadow-none"
+          );
+        } else {
+          navbar.classList.remove(
+            "fixed",
+            "top-0",
+            "left-0",
+            "right-0",
+            "z-50",
+            "bg-white",
+            "dark:bg-gray-800",
+            "shadow-md"
+          );
+          navbar.classList.add(
+            "bg-transparent",
+            "dark:bg-transparent",
+            "shadow-none"
+          );
+        }
+      });
+
+      // Load members data from JSON
+      fetch("data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          data.forEach((member) => {
+            const isPJ = member.role.includes("PJ");
+
+            const card = document.createElement("div");
+            card.className =
+              "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center";
+
+            card.innerHTML = `
+        <img 
+          src="${member.gambar}" 
+          alt="${member.nama.toUpperCase()}" 
+          class="w-24 h-24 object-cover rounded-full mx-auto mb-4
+                 ${isPJ ? "border-4 border-red-500 ring-2 ring-red-300" : ""}" 
+        />
+        <h4 class="text-xl font-semibold text-gray-900 dark:text-gray-100">
+          ${member.nama.toUpperCase()}
+        </h4>
+        <p class="text-gray-600 dark:text-gray-300">${member.role}</p>
+      `;
+
+            membersContainer.appendChild(card);
+          });
+        })
+        .catch((error) => console.error("Error loading members data:", error));
+    </script>
+  </body>
+</html>

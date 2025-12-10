@@ -1,0 +1,87 @@
+[
+  {
+    "nama": "azzam",
+    "gambar": "member/azzam.jpeg",
+    "role": "PJ Pemukul"
+  },
+  {
+    "nama": "arjuna",
+    "gambar": "member/arjun.jpeg",
+    "role": "Pemukul 1"
+  },
+  {
+    "nama": "aldi",
+    "gambar": "member/aldi.png",
+    "role": "Pemukul 2"
+  },
+  {
+    "nama": "fathir",
+    "gambar": "member/fathir.jpeg",
+    "role": "PJ Logistik Perasaan"
+  },
+  {
+    "nama": "vito",
+    "gambar": "member/vito.jpeg",
+    "role": "Logistik Perasaan 1"
+  },
+  {
+    "nama": "levi",
+    "gambar": "member/levi.jpeg",
+    "role": "Logistik Perasaan 2"
+  },
+  {
+    "nama": "ilyas",
+    "gambar": "member/ilyas.jpeg",
+    "role": "PJ Konsumsi"
+  },
+  {
+    "nama": "akbar",
+    "gambar": "member/akbar.jpeg",
+    "role": "Konsumsi 1"
+  },
+  {
+    "nama": "rehan",
+    "gambar": "member/rehan.jpeg",
+    "role": "Konsumsi 2"
+  },
+  {
+    "nama": "vian",
+    "gambar": "member/vian.jpeg",
+    "role": "PJ Hacker"
+  },
+  {
+    "nama": "fatih",
+    "gambar": "member/fatih.jpeg",
+    "role": "Hacker 1"
+  },
+  {
+    "nama": "zam",
+    "gambar": "member/zam.jpeg",
+    "role": "Hacker 2"
+  },
+  {
+    "nama": "nabil",
+    "gambar": "member/nabil.jpeg",
+    "role": "PJ Mekanik"
+  },
+  {
+    "nama": "zaki",
+    "gambar": "member/zaki.jpeg",
+    "role": "Mekanik 1"
+  },
+  {
+    "nama": "vigil",
+    "gambar": "member/vigil.jpeg",
+    "role": "PJ Intel"
+  },
+  {
+    "nama": "atma",
+    "gambar": "member/atma.jpeg",
+    "role": "PJ Defender"
+  },
+  {
+    "nama": "radit",
+    "gambar": "member/radit.jpeg",
+    "role": "Defender 1"
+  }
+]
