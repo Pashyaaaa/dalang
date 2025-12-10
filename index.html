@@ -34,6 +34,7 @@
           <!-- Tempat Logo -->
           <div class="flex justify-center items-center space-x-2">
             <img
+              loading="lazy"
               src="logo_dalang.jpeg"
               alt="Logo Damkar Telang"
               class="w-16 h-16 rounded-full"
@@ -149,6 +150,7 @@
         <div class="flex flex-wrap gap-6 justify-center">
           <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
             <img
+              loading="lazy"
               src="damkar_telang.jpeg"
               alt="Kegiatan 1"
               class="w-full h-48 object-cover rounded-lg"
@@ -159,6 +161,7 @@
           </div>
           <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
             <img
+              loading="lazy"
               src="damkar_meetup.jpeg"
               alt="Kegiatan 2"
               class="w-full h-48 object-cover rounded-lg"
@@ -169,6 +172,7 @@
           </div>
           <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
             <img
+              loading="lazy"
               src="makan_bar.jpeg"
               alt="Kegiatan 3"
               class="w-full h-48 object-cover rounded-lg"
@@ -284,7 +288,8 @@
               "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center";
 
             card.innerHTML = `
-        <img 
+        <img
+        loading="lazy" 
           src="${member.gambar}" 
           alt="${member.nama.toUpperCase()}" 
           class="w-24 h-24 object-cover rounded-full mx-auto mb-4
