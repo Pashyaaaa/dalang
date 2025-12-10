@@ -37,7 +37,7 @@
               loading="lazy"
               src="logo_dalang.jpeg"
               alt="Logo Damkar Telang"
-              class="w-16 h-16 rounded-full"
+              class="w-14 h-14 sm:w-16 sm:h-16 rounded-full"
             />
             <h1
               class="text-sm sm:text-xl font-bold text-red-800 dark:text-red-700"
@@ -73,15 +73,17 @@
       class="bg-gradient-to-r from-red-500 to-pink-600 dark:from-pink-900 dark:to-red-500 text-white py-20"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl font-bold mb-4">Selamat Datang di Damkar Telang</h2>
-        <p class="text-xl mb-8">
-          Komunitas teknologi terdepan untuk belajar, berbagi, dan
-          berkolaborasi. Bergabunglah dengan puluhan anggota aktif!
+        <h2 class="text-2xl sm:text-4xl font-bold mb-4">
+          We Are: Damkar Telang
+        </h2>
+        <p class="text-sm sm:text-xl mb-8">
+          Komunitas IT UTM terdepan untuk belajar, berbagi, dan berkolaborasi.
+          Bergabunglah dengan puluhan anggota aktif!
         </p>
         <a
           href="https://chat.whatsapp.com/JJMUOYEI9oZ1A1z86frXSx"
           target="_blank"
-          class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+          class="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
         >
           Bergabung Sekarang
         </a>
@@ -92,17 +94,21 @@
     <section class="py-16 bg-gray-200 dark:bg-gray-800">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+          <h3
+            class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4"
+          >
             Tentang Kami
           </h3>
-          <p class="text-lg text-gray-600 dark:text-gray-300">
+          <p class="text-sm sm:text-lg text-gray-600 dark:text-gray-300">
             Komunitas Damkar didirikan untuk memfasilitasi pertukaran
             pengetahuan di bidang teknologi. Kami menyelenggarakan ngobar(ngopi
             bareng), meetup, dan proyek kolaboratif.
           </p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+          <div
+            class="bg-gray-50 dark:bg-gray-700 hover:scale-105 hover:dark:bg-gray-600 transition-all p-6 rounded-lg shadow-md"
+          >
             <h4
               class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
             >
@@ -112,7 +118,9 @@
               Akses materi pembelajaran gratis dan sesi mentoring dari ahli.
             </p>
           </div>
-          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+          <div
+            class="bg-gray-50 dark:bg-gray-700 hover:scale-105 hover:dark:bg-gray-600 transition-all p-6 rounded-lg shadow-md"
+          >
             <h4
               class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
             >
@@ -122,7 +130,9 @@
               Bekerja sama dalam proyek open-source dan inovasi teknologi.
             </p>
           </div>
-          <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+          <div
+            class="bg-gray-50 dark:bg-gray-700 hover:scale-105 hover:dark:bg-gray-600 transition-all p-6 rounded-lg shadow-md"
+          >
             <h4
               class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100"
             >
@@ -147,46 +157,17 @@
             Lihat momen-momen seru dari kegiatan komunitas kami.
           </p>
         </div>
-        <div class="flex flex-wrap gap-6 justify-center">
-          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
-            <img
-              loading="lazy"
-              src="damkar_telang.jpeg"
-              alt="Kegiatan 1"
-              class="w-full h-48 object-cover rounded-lg"
-            />
-            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
-              Foto Bareng
-            </p>
-          </div>
-          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
-            <img
-              loading="lazy"
-              src="damkar_meetup.jpeg"
-              alt="Kegiatan 2"
-              class="w-full h-48 object-cover rounded-lg"
-            />
-            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
-              Rapat Akbar
-            </p>
-          </div>
-          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow-md">
-            <img
-              loading="lazy"
-              src="makan_bar.jpeg"
-              alt="Kegiatan 3"
-              class="w-full h-48 object-cover rounded-lg"
-            />
-            <p class="mt-2 text-center text-gray-600 dark:text-gray-300">
-              Makan Bareng
-            </p>
-          </div>
-        </div>
+
+        <!-- CONTAINER GALERI -->
+        <div
+          id="galeriContainer"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        ></div>
       </div>
     </section>
 
     <!-- Members Section -->
-    <section class="py-16 bg-gray-400 dark:bg-gray-900">
+    <section class="py-16 bg-gray-200 dark:bg-gray-900">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h3 class="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-4">
@@ -222,24 +203,26 @@
       const html = document.documentElement;
       const navbar = document.getElementById("navbar");
       const membersContainer = document.getElementById("members-container");
+      const galeriContainer = document.getElementById("galeriContainer");
 
-      // Default dark mode, icon set to moon
+      // =========================
+      // THEME TOGGLE
+      // =========================
       let isDark = true;
 
       themeToggle.addEventListener("click", () => {
         html.classList.toggle("dark");
         isDark = !isDark;
         const icon = themeToggle.querySelector("svg");
-        if (isDark) {
-          icon.innerHTML =
-            '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>';
-        } else {
-          icon.innerHTML =
-            '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
-        }
+
+        icon.innerHTML = isDark
+          ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>'
+          : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
       });
 
-      // Sticky navbar on scroll
+      // =========================
+      // STICKY NAVBAR
+      // =========================
       window.addEventListener("scroll", () => {
         if (window.scrollY > 100) {
           navbar.classList.add(
@@ -276,35 +259,90 @@
         }
       });
 
-      // Load members data from JSON
-      fetch("data.json")
-        .then((response) => response.json())
+      // =========================
+      // LOAD MEMBERS
+      // =========================
+      fetch("data_member.json")
+        .then((res) => res.json())
         .then((data) => {
           data.forEach((member) => {
             const isPJ = member.role.includes("PJ");
+            const objectPosition =
+              member.posisi_gambar === "top" ? "object-top" : "object-center";
 
             const card = document.createElement("div");
             card.className =
-              "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center";
+              "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center hover:scale-105 hover:dark:bg-gray-600 transition-all";
 
             card.innerHTML = `
-        <img
-        loading="lazy" 
-          src="${member.gambar}" 
-          alt="${member.nama.toUpperCase()}" 
-          class="w-24 h-24 object-cover rounded-full mx-auto mb-4
-                 ${isPJ ? "border-4 border-red-500 ring-2 ring-red-300" : ""}" 
-        />
-        <h4 class="text-xl font-semibold text-gray-900 dark:text-gray-100">
-          ${member.nama.toUpperCase()}
-        </h4>
-        <p class="text-gray-600 dark:text-gray-300">${member.role}</p>
-      `;
+          <img
+            loading="lazy"
+            src="${member.gambar}"
+            alt="${member.nama.toUpperCase()}"
+            class="
+              w-24 h-24
+              object-cover ${objectPosition}
+              rounded-full mx-auto mb-4
+              ${isPJ ? "border-4 border-red-500 ring-2 ring-red-300" : ""}
+            "
+          />
+          <h4 class="text-xl font-semibold text-gray-900 dark:text-gray-100">
+            ${member.nama.toUpperCase()}
+          </h4>
+          <p class="text-gray-600 dark:text-gray-300">${member.role}</p>
+        `;
 
             membersContainer.appendChild(card);
           });
         })
-        .catch((error) => console.error("Error loading members data:", error));
+        .catch((err) => console.error("Error loading members data:", err));
+
+      // =========================
+      // LOAD GALERI
+      // =========================
+      fetch("data_galeri.json")
+        .then((res) => res.json())
+        .then((data) => {
+          data.forEach((item) => {
+            const card = document.createElement("div");
+            card.className =
+              "bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden hover:scale-105 transition";
+
+            card.innerHTML = `
+        <img
+          loading="lazy"
+          src="${item.gambar}"
+          alt="${item.judul}"
+          class="w-full h-56 object-cover"
+        />
+
+        <!-- INFO CARD -->
+        <div class="p-4 flex items-center justify-between gap-4">
+          <div>
+            <h4 class="text-lg font-semibold text-gray-800 dark:text-gray-100">
+              ${item.judul}
+            </h4>
+            <p class="text-sm text-gray-500 dark:text-gray-300">
+              ${item.tanggal}
+            </p>
+          </div>
+
+          <button
+            class="shrink-0 px-3 py-1 text-sm rounded-md
+                   bg-blue-600 text-white
+                   hover:bg-blue-700
+                   dark:bg-blue-500 dark:hover:bg-blue-600
+                   transition"
+          >
+            Info
+          </button>
+        </div>
+      `;
+
+            galeriContainer.appendChild(card);
+          });
+        })
+        .catch((err) => console.error("Error loading galeri data:", err));
     </script>
   </body>
 </html>

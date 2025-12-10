@@ -7,7 +7,8 @@
   {
     "nama": "arjuna",
     "gambar": "member/arjun.jpeg",
-    "role": "Pemukul 1"
+    "role": "Pemukul 1",
+    "posisi_gambar": "top"
   },
   {
     "nama": "aldi",
